@@ -1,0 +1,29 @@
+PODS:
+  - MessengerKit (1.0.5)
+  - Spring (1.0.6)
+
+DEPENDENCIES:
+  - MessengerKit (from `https://github.com/steve228uk/MessengerKit.git`)
+  - Spring (from `https://github.com/DenAnger/Spring.git`)
+
+EXTERNAL SOURCES:
+  MessengerKit:
+    :git: https://github.com/steve228uk/MessengerKit.git
+  Spring:
+    :git: https://github.com/DenAnger/Spring.git
+
+CHECKOUT OPTIONS:
+  MessengerKit:
+    :commit: a97544ca047628cebede82ab0a32a69c7acfa9fe
+    :git: https://github.com/steve228uk/MessengerKit.git
+  Spring:
+    :commit: 7e03ffa33be5cb9ef8cc5e20d835239b797d2205
+    :git: https://github.com/DenAnger/Spring.git
+
+SPEC CHECKSUMS:
+  MessengerKit: 26dbfa81b76b22b7891028fb9a2cefdf4e86236f
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
+
+PODFILE CHECKSUM: a576f10a5a187ca732962fc1b9d7cb2f6d167aab
+
+COCOAPODS: 1.10.1
