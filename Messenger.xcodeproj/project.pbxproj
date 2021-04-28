@@ -10,6 +10,8 @@
 		693AD5A6262FF3A400976C9E /* ChatsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AD5A5262FF3A400976C9E /* ChatsTableViewController.swift */; };
 		693AD5AE262FFDE100976C9E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AD5AD262FFDE100976C9E /* ChatViewController.swift */; };
 		693AD5B326300B7300976C9E /* ChatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AD5B226300B7300976C9E /* ChatsCell.swift */; };
+		697AB37A26393355004798D0 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697AB37926393354004798D0 /* MessageCell.swift */; };
+		697AB37E26393772004798D0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697AB37D26393772004798D0 /* User.swift */; };
 		69F6C25B262ED2D000F3EEB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6C25A262ED2D000F3EEB8 /* AppDelegate.swift */; };
 		69F6C25D262ED2D000F3EEB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6C25C262ED2D000F3EEB8 /* SceneDelegate.swift */; };
 		69F6C25F262ED2D000F3EEB8 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6C25E262ED2D000F3EEB8 /* StartViewController.swift */; };
@@ -24,6 +26,8 @@
 		693AD5A5262FF3A400976C9E /* ChatsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsTableViewController.swift; sourceTree = "<group>"; };
 		693AD5AD262FFDE100976C9E /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		693AD5B226300B7300976C9E /* ChatsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsCell.swift; sourceTree = "<group>"; };
+		697AB37926393354004798D0 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		697AB37D26393772004798D0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		69F6C257262ED2D000F3EEB8 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F6C25A262ED2D000F3EEB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69F6C25C262ED2D000F3EEB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,8 +56,17 @@
 			isa = PBXGroup;
 			children = (
 				693AD5B226300B7300976C9E /* ChatsCell.swift */,
+				697AB37926393354004798D0 /* MessageCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		697AB37C26393763004798D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				697AB37D26393772004798D0 /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		69F6C24E262ED2D000F3EEB8 = {
@@ -77,6 +90,7 @@
 		69F6C259262ED2D000F3EEB8 /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				697AB37C26393763004798D0 /* Models */,
 				69F6C272262ED8EB00F3EEB8 /* Views */,
 				69F6C273262ED8F900F3EEB8 /* Controllers */,
 				69F6C274262ED90300F3EEB8 /* Resources */,
@@ -258,8 +272,10 @@
 				69F6C25B262ED2D000F3EEB8 /* AppDelegate.swift in Sources */,
 				69F6C25D262ED2D000F3EEB8 /* SceneDelegate.swift in Sources */,
 				693AD5AE262FFDE100976C9E /* ChatViewController.swift in Sources */,
+				697AB37E26393772004798D0 /* User.swift in Sources */,
 				693AD5A6262FF3A400976C9E /* ChatsTableViewController.swift in Sources */,
 				693AD5B326300B7300976C9E /* ChatsCell.swift in Sources */,
+				697AB37A26393355004798D0 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XJN9TW8RPS;
 				INFOPLIST_FILE = "$(SRCROOT)/Messenger/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,7 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XJN9TW8RPS;
 				INFOPLIST_FILE = "$(SRCROOT)/Messenger/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
