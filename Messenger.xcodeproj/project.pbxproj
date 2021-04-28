@@ -48,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		697AB35A26391FDE004798D0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				693AD5B226300B7300976C9E /* ChatsCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		69F6C24E262ED2D000F3EEB8 = {
 			isa = PBXGroup;
 			children = (
@@ -92,7 +100,7 @@
 			children = (
 				69F6C260262ED2D000F3EEB8 /* Main.storyboard */,
 				69F6C265262ED2D200F3EEB8 /* LaunchScreen.storyboard */,
-				693AD5B226300B7300976C9E /* ChatsCell.swift */,
+				697AB35A26391FDE004798D0 /* Cells */,
 			);
 			path = Views;
 			sourceTree = "<group>";

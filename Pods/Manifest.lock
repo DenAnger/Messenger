@@ -17,7 +17,7 @@ CHECKOUT OPTIONS:
     :commit: a97544ca047628cebede82ab0a32a69c7acfa9fe
     :git: https://github.com/steve228uk/MessengerKit.git
   Spring:
-    :commit: 7e03ffa33be5cb9ef8cc5e20d835239b797d2205
+    :commit: 75b70447a784b1091096fefde31522c48b75d6e1
     :git: https://github.com/DenAnger/Spring.git
 
 SPEC CHECKSUMS:
